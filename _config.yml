@@ -1,6 +1,24 @@
 remote_theme: yaoyao-liu/minimal-light
 
 title: Rabbia Hassan
-font: "Sans Serif"
-auto_dark_mode: true
+position: Computer Vision Researcher
+affiliation: null
+email: null
+
+keywords: computer vision, 3D point clouds, deep learning, localization, remote sensing
+description: Academic profile of Rabbia Hassan, featuring research, publications, projects, teaching, and academic achievements.
+canonical: https://rabbia-hassan.github.io/
+
+google_scholar: null
+cv_link: null
+github_link: https://github.com/Rabbia-Hassan
+linkedin: null
+twitter: null
+
+avatar: ./profile.jpg
+favicon: null
+favicon_dark: null
+
 enable_footnote: false
+auto_dark_mode: true
+font: "Sans Serif"
