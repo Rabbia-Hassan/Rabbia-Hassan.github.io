@@ -3,7 +3,7 @@ remote_theme: yaoyao-liu/minimal-light
 title: Rabbia Hassan
 position: Computer Vision Researcher
 affiliation: null
-email: null
+email: email: rabbia.hassan@seecs.edu.pk
 
 keywords: computer vision, 3D point clouds, deep learning, localization, remote sensing
 description: Academic profile of Rabbia Hassan, featuring research, publications, projects, teaching, and academic achievements.
@@ -12,8 +12,8 @@ canonical: https://rabbia-hassan.github.io/
 google_scholar: null
 cv_link: null
 github_link: https://github.com/Rabbia-Hassan
-linkedin: null
-twitter: null
+linkedin: linkedin: https://www.linkedin.com/in/rabbia-hassan-309aa683
+#twitter: null
 
 avatar: ./profile.jpg
 favicon: null
