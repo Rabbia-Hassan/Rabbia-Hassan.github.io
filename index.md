@@ -12,7 +12,7 @@ My research focuses on 3D scene understanding and 3D position localization. More
 
 ## Research Interests
 
-- - **3D Computer Vision — Core Research Area**
+- **3D Computer Vision** *(Core Research Area)*
   - 3D Scene Understanding
   - 3D Position Localization
   - Multimodal Representation Learning
