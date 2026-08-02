@@ -8,3 +8,11 @@ I am a Lecturer at the [Ghulam Ishaq Khan Institute of Engineering Sciences and 
 
 
 My research focuses on 3D scene understanding and 3D position localization. More specifically, I develop methods and multimodal benchmarks to enable fine-grained geometric representation learning from raw point clouds and joint reasoning across spatial, semantic, and natural-language cues in complex 3D environments.
+
+
+## Research Interests
+
+- **3D Computer Vision**
+  - 3D Scene Understanding
+  - 3D Position Localization
+  - Multimodal 3D Learning
