@@ -15,4 +15,4 @@ My research focuses on 3D scene understanding and 3D position localization. More
 - **3D Computer Vision**
   - 3D Scene Understanding
   - 3D Position Localization
-  - Multimodal 3D Learning
+  - Multimodal Representation Learning
