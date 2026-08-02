@@ -49,6 +49,49 @@
   <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
   <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
   {% endif %}
+<style>
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  .top-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 14px 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.96);
+    border-bottom: 1px solid #dddddd;
+  }
+  .top-nav a {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .top-nav a:hover {
+    text-decoration: underline;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .top-nav {
+      background: rgba(18, 19, 26, 0.96);
+      border-bottom-color: #333333;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .top-nav a {
+      margin: 4px 8px;
+      font-size: 0.82rem;
+    }
+  }
+</style>
+
 </head>
 
 <body>
