@@ -56,26 +56,29 @@
   }
 
   .top-nav {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-    padding: 14px 0;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.96);
-    border-bottom: 1px solid #dddddd;
-  }
-  .top-nav a {
-    display: inline-block;
-    margin: 0 20px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    text-decoration: none;
-  }
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 6%;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid #dddddd;
+}
 
-  .top-nav a:hover {
-    text-decoration: underline;
-  }
+.top-nav a {
+  display: inline-block;
+  margin: 0 24px 0 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
 
   @media (prefers-color-scheme: dark) {
     .top-nav {
@@ -87,7 +90,7 @@
   @media screen and (max-width: 600px) {
     .top-nav a {
       margin: 4px 8px;
-      font-size: 0.82rem;
+      font-size: 0.72rem;
     }
   }
 </style>
