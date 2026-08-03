@@ -32,7 +32,7 @@
   }
 
   .publication-title {
-    font-size: 1rem;
+    font-size: 0.80rem;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 5px;
