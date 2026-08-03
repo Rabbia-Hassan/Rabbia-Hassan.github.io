@@ -111,7 +111,8 @@
 
     <div class="publication-links">
       {% if link.pdf %}
-      <a href="{{ link.pdf }}" target="_blank" rel="noopener">PDF</a>
+     
+      <a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.pdf_label | default: "PDF" }}</a>
       {% endif %}
 
       {% if link.code %}
