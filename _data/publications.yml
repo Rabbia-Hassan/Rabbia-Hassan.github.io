@@ -6,4 +6,4 @@ main:
     conference: "Neurocomputing, vol. 526, pp. 96–108, 2023."
     pdf: "https://doi.org/10.1016/j.neucom.2023.01.026"
     code: "https://github.com/Rabbia-Hassan/Deep_Annular_Residual_Feature_Learning_for_3dPointClouds"
-    thumbnail_pdf: "/assets/img/neurocomputing_arch.pdf"
+    image: "/assets/img/neurocomputing_arch-1.png"
