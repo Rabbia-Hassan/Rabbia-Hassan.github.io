@@ -22,6 +22,4 @@ My research focuses on 3D scene understanding and 3D position localization. More
   - Theoretical Computer Science
 
 
-## Publications
-
 {% include publications.md %}
