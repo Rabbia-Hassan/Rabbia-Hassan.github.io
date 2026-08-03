@@ -7,3 +7,10 @@ main:
     pdf: "https://doi.org/10.1016/j.neucom.2023.01.026"
     code: "https://github.com/Rabbia-Hassan/Deep_Annular_Residual_Feature_Learning_for_3dPointClouds"
     image: "/assets/img/neurocomputing_arch-1.png"
+
+  - title: "Modeling and Clustering of Residential Electricity Consumption for Short-Term Forecasting Using Seasonal Autoregressive Integrated Moving Average (SARIMA)"
+    authors: "S. Arif, <strong>R. Hassan</strong>, H. A. Nasir, N. Riaz, and I. Mahmood"
+    conference_short: "Global Energy Interconnection"
+    conference: "Global Energy Interconnection, vol. 9, no. 3, pp. 567–584, 2026."
+    pdf: "https://doi.org/10.1016/j.gloei.2026.04.001"
+    image: "/assets/img/graphical_abstract_sarima.jpg"
