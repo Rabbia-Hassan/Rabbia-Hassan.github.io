@@ -6,51 +6,45 @@
 /* Selected Projects */
 
 .projects-grid {
-  display: block;
-  margin: 18px 0 32px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin: 22px 0 36px;
 }
 
 .project-card {
-  display: grid;
-  grid-template-columns: minmax(220px, 40%) 1fr;
-  gap: 28px;
-  align-items: center;
-  padding: 20px 0 26px;
-  overflow: visible;
+  display: block;
+  min-width: 0;
+  padding: 0;
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(150, 150, 150, 0.25);
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.project-card:hover {
-  transform: none;
   box-shadow: none;
 }
 
 .project-card-image {
   display: block;
   width: 100%;
-  margin: 0;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  border-radius: 8px;
+  margin: 0 0 14px;
+  border-radius: 7px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.20);
 }
 
 .project-card-content {
+  display: block;
+  width: 100%;
   padding: 0;
 }
 
 .project-card h3 {
-  margin: 0 0 10px;
-  font-size: 19px;
+  margin: 0 0 7px;
+  font-size: 18px;
   line-height: 1.4;
 }
 
 .project-card-role {
-  margin: 0 0 14px;
+  margin: 0 0 13px;
   color: inherit;
   font-size: 14px;
   font-weight: 400;
@@ -58,19 +52,15 @@
   text-transform: none;
 }
 
-.project-card-content > p:not(.project-card-role) {
-  display: none;
-}
-
 .project-card-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 9px;
 }
 
 .project-card-links a {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 5px 11px;
   border: 1px solid #39c;
   border-radius: 0;
   font-size: 13px;
@@ -84,8 +74,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  .project-card {
+  .projects-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
   }
 }
