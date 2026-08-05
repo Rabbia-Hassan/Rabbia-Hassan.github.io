@@ -89,3 +89,14 @@
   object-fit: contain;
   background: #ffffff;
 }
+
+/* Centre project content beneath thumbnails */
+
+.projects-grid .project-card h3,
+.projects-grid .project-card .project-card-role {
+  text-align: center !important;
+}
+
+.projects-grid .project-card .project-card-links {
+  justify-content: center !important;
+}
