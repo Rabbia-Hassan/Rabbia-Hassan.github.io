@@ -24,10 +24,10 @@
 .project-card-image {
   display: block;
   width: 82%;
-  max-width: 360px;
+  max-width: 300px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  margin: 0 0 14px;
+  margin: 0 auto 14px;
   border-radius: 7px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.20);
 }
