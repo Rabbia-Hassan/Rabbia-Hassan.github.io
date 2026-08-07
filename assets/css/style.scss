@@ -138,3 +138,53 @@
   background: #1f2029;
 }
 
+/* Timeline */
+
+.timeline-table {
+  width: 100%;
+  margin: 18px 0 34px;
+}
+
+.timeline-row {
+  display: grid;
+  grid-template-columns: 22% 48% 30%;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(180, 180, 180, 0.55);
+}
+
+.timeline-date,
+.timeline-role,
+.timeline-place {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.timeline-date {
+  padding-right: 14px;
+}
+
+.timeline-role {
+  padding-right: 18px;
+}
+
+.timeline-place {
+  color: #39c;
+}
+
+@media screen and (max-width: 700px) {
+  .timeline-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .timeline-date,
+  .timeline-role {
+    padding-right: 0;
+  }
+}
+
+
+
+
+
