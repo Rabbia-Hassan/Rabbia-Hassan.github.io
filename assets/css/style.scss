@@ -107,3 +107,29 @@
 .projects-grid .project-card .project-card-links {
   justify-content: center !important;
 }
+
+
+
+/* Clean horizontal scrollbar for Projects only */
+
+.projects-grid {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(120, 120, 120, 0.55) transparent;
+}
+
+.projects-grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.projects-grid::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.projects-grid::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 120, 0.55);
+  border-radius: 10px;
+}
+
+.projects-grid::-webkit-scrollbar-thumb:hover {
+  background: #39c;
+}
