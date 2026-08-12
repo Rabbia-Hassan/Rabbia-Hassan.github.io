@@ -26,4 +26,5 @@ My research focuses on 3D scene understanding and 3D position localization. More
 {% include projects.html %}
 {% include timeline.html %}
 {% include teaching.html %}
+{% include scholarships.html %}
 
